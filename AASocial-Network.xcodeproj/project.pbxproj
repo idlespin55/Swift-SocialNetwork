@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1E5CDC1CFFF50700C64D62 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E5CDB1CFFF50700C64D62 /* MaterialView.swift */; };
+		4A1E5CDE1CFFF6AD00C64D62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E5CDD1CFFF6AC00C64D62 /* Constants.swift */; };
+		4A1E5CE01D00A91E00C64D62 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E5CDF1D00A91D00C64D62 /* MaterialButton.swift */; };
+		4A1E5CE21D00B0DE00C64D62 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E5CE11D00B0DE00C64D62 /* MaterialTextField.swift */; };
 		4A3675291CFF2B7300F09DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3675281CFF2B7300F09DDE /* AppDelegate.swift */; };
 		4A36752B1CFF2B7300F09DDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36752A1CFF2B7300F09DDE /* ViewController.swift */; };
 		4A36752E1CFF2B7300F09DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A36752C1CFF2B7300F09DDE /* Main.storyboard */; };
 		4A3675301CFF2B7300F09DDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A36752F1CFF2B7300F09DDE /* Assets.xcassets */; };
 		4A3675331CFF2B7300F09DDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3675311CFF2B7300F09DDE /* LaunchScreen.storyboard */; };
+		4A3675421CFF2CB700F09DDE /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A36753E1CFF2CB700F09DDE /* NotoSans-Bold.ttf */; };
+		4A3675431CFF2CB700F09DDE /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A36753F1CFF2CB700F09DDE /* NotoSans-BoldItalic.ttf */; };
+		4A3675441CFF2CB700F09DDE /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3675401CFF2CB700F09DDE /* NotoSans-Italic.ttf */; };
+		4A3675451CFF2CB700F09DDE /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3675411CFF2CB700F09DDE /* NotoSans-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A1E5CDB1CFFF50700C64D62 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		4A1E5CDD1CFFF6AC00C64D62 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4A1E5CDF1D00A91D00C64D62 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
+		4A1E5CE11D00B0DE00C64D62 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
 		4A3675251CFF2B7200F09DDE /* AASocial-Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AASocial-Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3675281CFF2B7300F09DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A36752A1CFF2B7300F09DDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,10 @@
 		4A36752F1CFF2B7300F09DDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A3675321CFF2B7300F09DDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4A3675341CFF2B7300F09DDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A36753E1CFF2CB700F09DDE /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		4A36753F1CFF2CB700F09DDE /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4A3675401CFF2CB700F09DDE /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		4A3675411CFF2CB700F09DDE /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				4A3675271CFF2B7300F09DDE /* AASocial-Network */,
+				4A3675461CFF2CF000F09DDE /* Resources */,
 				4A3675261CFF2B7200F09DDE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,13 +71,61 @@
 		4A3675271CFF2B7300F09DDE /* AASocial-Network */ = {
 			isa = PBXGroup;
 			children = (
+				4A36753D1CFF2B8F00F09DDE /* Model */,
+				4A36753C1CFF2B8C00F09DDE /* View */,
+				4A36753B1CFF2B8800F09DDE /* Controller */,
+				4A36753A1CFF2B8100F09DDE /* Utilities */,
+			);
+			path = "AASocial-Network";
+			sourceTree = "<group>";
+		};
+		4A36753A1CFF2B8100F09DDE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4A1E5CDD1CFFF6AC00C64D62 /* Constants.swift */,
 				4A3675281CFF2B7300F09DDE /* AppDelegate.swift */,
-				4A36752A1CFF2B7300F09DDE /* ViewController.swift */,
-				4A36752C1CFF2B7300F09DDE /* Main.storyboard */,
-				4A36752F1CFF2B7300F09DDE /* Assets.xcassets */,
-				4A3675311CFF2B7300F09DDE /* LaunchScreen.storyboard */,
 				4A3675341CFF2B7300F09DDE /* Info.plist */,
 			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		4A36753B1CFF2B8800F09DDE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A36752A1CFF2B7300F09DDE /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		4A36753C1CFF2B8C00F09DDE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4A36752C1CFF2B7300F09DDE /* Main.storyboard */,
+				4A3675311CFF2B7300F09DDE /* LaunchScreen.storyboard */,
+				4A36752F1CFF2B7300F09DDE /* Assets.xcassets */,
+				4A1E5CDB1CFFF50700C64D62 /* MaterialView.swift */,
+				4A1E5CDF1D00A91D00C64D62 /* MaterialButton.swift */,
+				4A1E5CE11D00B0DE00C64D62 /* MaterialTextField.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		4A36753D1CFF2B8F00F09DDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4A3675461CFF2CF000F09DDE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A36753E1CFF2CB700F09DDE /* NotoSans-Bold.ttf */,
+				4A36753F1CFF2CB700F09DDE /* NotoSans-BoldItalic.ttf */,
+				4A3675401CFF2CB700F09DDE /* NotoSans-Italic.ttf */,
+				4A3675411CFF2CB700F09DDE /* NotoSans-Regular.ttf */,
+			);
+			name = Resources;
 			path = "AASocial-Network";
 			sourceTree = "<group>";
 		};
@@ -122,9 +187,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A3675421CFF2CB700F09DDE /* NotoSans-Bold.ttf in Resources */,
 				4A3675331CFF2B7300F09DDE /* LaunchScreen.storyboard in Resources */,
+				4A3675431CFF2CB700F09DDE /* NotoSans-BoldItalic.ttf in Resources */,
+				4A3675441CFF2CB700F09DDE /* NotoSans-Italic.ttf in Resources */,
 				4A3675301CFF2B7300F09DDE /* Assets.xcassets in Resources */,
 				4A36752E1CFF2B7300F09DDE /* Main.storyboard in Resources */,
+				4A3675451CFF2CB700F09DDE /* NotoSans-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +204,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1E5CE21D00B0DE00C64D62 /* MaterialTextField.swift in Sources */,
+				4A1E5CDC1CFFF50700C64D62 /* MaterialView.swift in Sources */,
 				4A36752B1CFF2B7300F09DDE /* ViewController.swift in Sources */,
 				4A3675291CFF2B7300F09DDE /* AppDelegate.swift in Sources */,
+				4A1E5CDE1CFFF6AD00C64D62 /* Constants.swift in Sources */,
+				4A1E5CE01D00A91E00C64D62 /* MaterialButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +359,7 @@
 				4A3675391CFF2B7300F09DDE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
