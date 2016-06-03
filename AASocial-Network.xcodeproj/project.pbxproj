@@ -11,6 +11,9 @@
 		4A1E5CDE1CFFF6AD00C64D62 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E5CDD1CFFF6AC00C64D62 /* Constants.swift */; };
 		4A1E5CE01D00A91E00C64D62 /* MaterialButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E5CDF1D00A91D00C64D62 /* MaterialButton.swift */; };
 		4A1E5CE21D00B0DE00C64D62 /* MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1E5CE11D00B0DE00C64D62 /* MaterialTextField.swift */; };
+		4A1E5CE71D00D55C00C64D62 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1E5CE41D00D55C00C64D62 /* Bolts.framework */; };
+		4A1E5CE81D00D55D00C64D62 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1E5CE51D00D55C00C64D62 /* FBSDKCoreKit.framework */; };
+		4A1E5CE91D00D55D00C64D62 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1E5CE61D00D55C00C64D62 /* FBSDKLoginKit.framework */; };
 		4A3675291CFF2B7300F09DDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3675281CFF2B7300F09DDE /* AppDelegate.swift */; };
 		4A36752B1CFF2B7300F09DDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A36752A1CFF2B7300F09DDE /* ViewController.swift */; };
 		4A36752E1CFF2B7300F09DDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A36752C1CFF2B7300F09DDE /* Main.storyboard */; };
@@ -20,13 +23,18 @@
 		4A3675431CFF2CB700F09DDE /* NotoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A36753F1CFF2CB700F09DDE /* NotoSans-BoldItalic.ttf */; };
 		4A3675441CFF2CB700F09DDE /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3675401CFF2CB700F09DDE /* NotoSans-Italic.ttf */; };
 		4A3675451CFF2CB700F09DDE /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A3675411CFF2CB700F09DDE /* NotoSans-Regular.ttf */; };
+		72B0188EAEFAFF1494A02E00 /* Pods_AASocial_Network.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF215E68B3ABCCD9384CC2CB /* Pods_AASocial_Network.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		275113C3ED6845DA555906B1 /* Pods-AASocial-Network.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AASocial-Network.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AASocial-Network/Pods-AASocial-Network.debug.xcconfig"; sourceTree = "<group>"; };
 		4A1E5CDB1CFFF50700C64D62 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
 		4A1E5CDD1CFFF6AC00C64D62 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		4A1E5CDF1D00A91D00C64D62 /* MaterialButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialButton.swift; sourceTree = "<group>"; };
 		4A1E5CE11D00B0DE00C64D62 /* MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialTextField.swift; sourceTree = "<group>"; };
+		4A1E5CE41D00D55C00C64D62 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		4A1E5CE51D00D55C00C64D62 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		4A1E5CE61D00D55C00C64D62 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		4A3675251CFF2B7200F09DDE /* AASocial-Network.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AASocial-Network.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A3675281CFF2B7300F09DDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A36752A1CFF2B7300F09DDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +46,8 @@
 		4A36753F1CFF2CB700F09DDE /* NotoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		4A3675401CFF2CB700F09DDE /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
 		4A3675411CFF2CB700F09DDE /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		EF215E68B3ABCCD9384CC2CB /* Pods_AASocial_Network.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AASocial_Network.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFED07DA87A91F603E805AB5 /* Pods-AASocial-Network.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AASocial-Network.release.xcconfig"; path = "Pods/Target Support Files/Pods-AASocial-Network/Pods-AASocial-Network.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,18 +55,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A1E5CE71D00D55C00C64D62 /* Bolts.framework in Frameworks */,
+				4A1E5CE81D00D55D00C64D62 /* FBSDKCoreKit.framework in Frameworks */,
+				4A1E5CE91D00D55D00C64D62 /* FBSDKLoginKit.framework in Frameworks */,
+				72B0188EAEFAFF1494A02E00 /* Pods_AASocial_Network.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A1E5CE31D00C1D900C64D62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A1E5CE41D00D55C00C64D62 /* Bolts.framework */,
+				4A1E5CE51D00D55C00C64D62 /* FBSDKCoreKit.framework */,
+				4A1E5CE61D00D55C00C64D62 /* FBSDKLoginKit.framework */,
+				EF215E68B3ABCCD9384CC2CB /* Pods_AASocial_Network.framework */,
+			);
+			name = Frameworks;
+			path = "AASocial-Network";
+			sourceTree = "<group>";
+		};
 		4A36751C1CFF2B7200F09DDE = {
 			isa = PBXGroup;
 			children = (
 				4A3675271CFF2B7300F09DDE /* AASocial-Network */,
+				4A36753A1CFF2B8100F09DDE /* Utilities */,
 				4A3675461CFF2CF000F09DDE /* Resources */,
+				4A1E5CE31D00C1D900C64D62 /* Frameworks */,
 				4A3675261CFF2B7200F09DDE /* Products */,
+				748EE85AF08C92FFFAB207FC /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,7 +103,6 @@
 				4A36753D1CFF2B8F00F09DDE /* Model */,
 				4A36753C1CFF2B8C00F09DDE /* View */,
 				4A36753B1CFF2B8800F09DDE /* Controller */,
-				4A36753A1CFF2B8100F09DDE /* Utilities */,
 			);
 			path = "AASocial-Network";
 			sourceTree = "<group>";
@@ -87,6 +115,7 @@
 				4A3675341CFF2B7300F09DDE /* Info.plist */,
 			);
 			name = Utilities;
+			path = "AASocial-Network";
 			sourceTree = "<group>";
 		};
 		4A36753B1CFF2B8800F09DDE /* Controller */ = {
@@ -129,6 +158,15 @@
 			path = "AASocial-Network";
 			sourceTree = "<group>";
 		};
+		748EE85AF08C92FFFAB207FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				275113C3ED6845DA555906B1 /* Pods-AASocial-Network.debug.xcconfig */,
+				EFED07DA87A91F603E805AB5 /* Pods-AASocial-Network.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -136,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A3675371CFF2B7300F09DDE /* Build configuration list for PBXNativeTarget "AASocial-Network" */;
 			buildPhases = (
+				EA7E87585237941D5C6140EE /* [CP] Check Pods Manifest.lock */,
 				4A3675211CFF2B7200F09DDE /* Sources */,
 				4A3675221CFF2B7200F09DDE /* Frameworks */,
 				4A3675231CFF2B7200F09DDE /* Resources */,
+				B08231229368F89ACF53B78F /* [CP] Embed Pods Frameworks */,
+				0252A4803F9920417FD2E4E7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,6 +240,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0252A4803F9920417FD2E4E7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AASocial-Network/Pods-AASocial-Network-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B08231229368F89ACF53B78F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AASocial-Network/Pods-AASocial-Network-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA7E87585237941D5C6140EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4A3675211CFF2B7200F09DDE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -255,6 +344,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -300,6 +390,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -320,8 +411,13 @@
 		};
 		4A3675381CFF2B7300F09DDE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 275113C3ED6845DA555906B1 /* Pods-AASocial-Network.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AASocial-Network",
+				);
 				INFOPLIST_FILE = "AASocial-Network/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FrontierGroup.AASocial-Network";
@@ -331,8 +427,13 @@
 		};
 		4A3675391CFF2B7300F09DDE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFED07DA87A91F603E805AB5 /* Pods-AASocial-Network.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AASocial-Network",
+				);
 				INFOPLIST_FILE = "AASocial-Network/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.FrontierGroup.AASocial-Network";
